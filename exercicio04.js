@@ -41,7 +41,7 @@ let estudantes = [ {
 
 
 
-const media =function (n1,n2,nomeDoA) {
+const media = (n1,n2,nomeDoA) => {
     const media = ((n1 + n2) / 2).toFixed(2)
     
     if(media >= 7){
